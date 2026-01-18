@@ -1,11 +1,9 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BASE */
 body {
     font-family: Arial, sans-serif;
 }
@@ -17,7 +15,6 @@ body {
     color: #fff;
 }
 
-/* HEADER */
 .body1 {
     background-color: black;
     display: flex;
@@ -59,7 +56,6 @@ body {
     cursor: pointer;
 }
 
-/* TITLE BAR */
 .body2 {
     background-color: black;
     padding: 15px;
@@ -67,7 +63,6 @@ body {
     font-size: 1.5rem;
 }
 
-/* LOADING / MESSAGE */
 .boddy1 {
     min-height: 300px;
     display: flex;
@@ -78,7 +73,6 @@ body {
     background-color: black;
 }
 
-/* FOOD DISPLAY */
 .food1 {
     background-color: black;
     width: 100%;
@@ -108,7 +102,6 @@ img {
     margin-bottom: 10px;
 }
 
-/* ABOUT & CONTACT */
 .body4,
 .body5 {
     min-height: 300px;
@@ -127,7 +120,6 @@ img {
     text-decoration: none;
 }
 
-/* FOOTER */
 .body6 {
     background-color: black;
     height: 40px;
@@ -136,14 +128,12 @@ img {
     align-items: center;
 }
 
-/* HOVER */
 #am:hover,
 #bm:hover,
 #cm:hover {
     text-decoration: underline;
 }
 
-/* ✅ RESPONSIVE BREAKPOINTS */
 @media (max-width: 768px) {
     .body1 {
         flex-direction: column;
@@ -183,3 +173,4 @@ img {
         font-size: 1.2rem;
     }
 }
+
